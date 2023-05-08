@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+
+
+.logo{
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.link-topo{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 10px;
+    float: right;
+}
+
+.link-topo::after{
+    content: '|';
+    padding-left: 8px;
+}
+
+.header{
+    background: rgb(93, 167, 182);
+    height: 70px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main p{
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.quadrado{
+    height: 250px;
+    width: 250px;
+    border: 3px solid white;
+    margin: 25px;
+}
+
+.quadrado img{
+    width: 100%;
+}
+
+.main{
+    background: black;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
